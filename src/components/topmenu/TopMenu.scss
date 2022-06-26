@@ -1,0 +1,25 @@
+@import '/src/app';
+$top-header-background: rgb(2, 42, 75);
+$brand-margin-left-righ: 30px;
+
+.top-header {
+  width: 100%;
+  height: 60px;
+  background-color: $top-header-background;
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+.brand-name {
+  margin-left: $brand-margin-left-righ;
+  margin-right: $brand-margin-left-righ;
+  background: linear-gradient(to right, #8efbd5 0%, #478aff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: {
+    size: 25px;
+    weight: 900;
+    family: $font-family;
+  }
+}
