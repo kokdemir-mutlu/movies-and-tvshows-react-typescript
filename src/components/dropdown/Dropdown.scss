@@ -9,7 +9,7 @@ $margin-rigth-left: 20px;
   display: inline-block;
   margin-left: $margin-rigth-left;
   margin-right: $margin-rigth-left;
-  line-height: 30px;
+  // line-height: 40px;
   &:hover {
     cursor: pointer;
     .dropdown-content {
@@ -22,6 +22,9 @@ $margin-rigth-left: 20px;
   background-color: transparent;
   color: whitesmoke;
   font-weight: 600;
+  padding: 10px;
+  // padding-left: 10px;
+  // padding-right: 10px;
 }
 .dropdown-content {
   display: none;
@@ -33,12 +36,15 @@ $margin-rigth-left: 20px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   .dropdown-list-item {
     display: block;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    // margin-top: 5px;
+    // margin-bottom: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     &:hover {
-      background-color: rgb(240, 240, 240);
+      background-color: rgb(244, 243, 243);
     }
   }
 }
