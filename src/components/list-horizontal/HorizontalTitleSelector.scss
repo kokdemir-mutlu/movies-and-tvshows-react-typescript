@@ -1,0 +1,18 @@
+
+$edge: 5px;
+
+.title-selector-parent {
+  padding-top: 10px;
+}
+.title-selector-ul {
+  list-style-type: none;
+}
+.horizontal-list-item {
+  float: left;
+  margin-left: $edge;
+  margin-right: $edge;
+  padding-left: $edge;
+  padding-right: $edge;
+  font-weight: 500;
+  cursor: pointer;
+}
